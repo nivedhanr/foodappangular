@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { LoginComponent } from './login/login.component';
 import { ReisterationComponent } from './reisteration/reisteration.component';
+import { NavbarComponent } from './navbar/navbar.component';
 const myRoute:Routes=[
   {
     path:"/",
@@ -26,7 +27,8 @@ const myRoute:Routes=[
     AppComponent,
     DashboardComponent,
     LoginComponent,
-    ReisterationComponent
+    ReisterationComponent,
+    NavbarComponent
   ],
   imports: [
     BrowserModule,
